@@ -1,5 +1,6 @@
 import React from "react";
 import GradientBackGround from "./components/gradientbg";
+import SearchUser from "./components/searchUser";
 
 const App = () => {
   return (
@@ -7,8 +8,10 @@ const App = () => {
       <div className="relative z-10 w-full mx-auto sm:max-w-screen-sm">
         <GradientBackGround />
       </div>
-      <div className="relative z-10 w-full px-4 pt-48 mx-auto sm:max-w-screen-sm pb-500">
-        <h1 className="text-3xl font-bold underline text-white">hello</h1>
+      <div className="relative z-10 w-full px-4 pt-48 mx-auto sm:max-w-screen-lg pb-500 ">
+        <div className="items-center ">
+          <SearchUser />
+        </div>
       </div>
     </div>
   );
