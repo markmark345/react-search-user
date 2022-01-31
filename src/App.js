@@ -4,9 +4,9 @@ import SearchUser from "./components/searchUser";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-[#000000f3] selection:text-white selection:bg-lime-500/90 antialiased">
+    <div className="min-h-screen  selection:text-white selection:bg-lime-500/90 antialiased">
       <div className="relative z-10 w-full mx-auto sm:max-w-screen-sm">
-        <GradientBackGround />
+        {/* <GradientBackGround /> */}
       </div>
       <div className="relative z-10 w-full px-4 pt-48 mx-auto sm:max-w-screen-lg pb-500 ">
         <div className="items-center ">
@@ -18,3 +18,4 @@ const App = () => {
 };
 
 export default App;
+//bg-[#000000f3]
